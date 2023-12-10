@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cormorant+Garamond:wght@300;400;500&family=Josefin+Sans:wght@200&family=Montserrat:wght@100&family=Questrial&display=swap');
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Questrial', sans-serif;
+    color: #1d1d1d;
+}
+
+.pages-container
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 40px;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.page-button
+{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: #dee2e6;
+
+    font-size: 16px;
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.page-button:hover
+{
+    color: #1d1d1d;
+}

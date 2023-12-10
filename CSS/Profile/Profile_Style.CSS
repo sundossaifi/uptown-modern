@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cormorant+Garamond:wght@300;400;500&family=Josefin+Sans:wght@200&family=Montserrat:wght@100&family=Questrial&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+.profile-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.Profile
+{
+    width: 1356px;
+    height: 800px;
+
+    margin-top: 200px;
+    text-align: center;
+}
+
+.personal_header
+{
+    font-size: 30px;
+}
+
+.information
+{
+    width: 1000px;
+    height: 500px;
+    color: #878787;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.Rbuttons
+{
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+
+.lab
+{
+    margin: 0px 0px 8px;
+    padding: 10px 20px 0px;
+    width: 150px;
+}
+
+.left
+{
+    margin-left: 10px;
+}
+
+.textf
+{
+    padding: 8px 16px;
+    width: 609.5px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 15%;
+}
+
+.submitButton
+{
+    margin-top: 20px;
+}
+
+.flex
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.submitButton 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 150px;
+    height: 50px;
+    margin-left: 370px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.btn 
+{
+    text-decoration: none;
+    border: 1px solid #d1e8e2;
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+.btn:hover 
+{
+    box-shadow: 1px 1px 25px 10px #9fcabe;
+}
+
+.btn:before 
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg,transparent,#88b8aa,transparent);
+    transition: all 650ms;
+}
+
+.btn:hover:before 
+{
+    left: 100%;
+}
+
+.option-input 
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+}
+
+.option-input:hover 
+{
+    background: #9faab7;
+}
+
+.option-input:checked 
+{
+    background: #9fcabe;
+}
+
+.option-input:checked::after 
+{
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #9fcabe;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.option-input.radio 
+{
+    border-radius: 50%;
+}
+
+.option-input.radio::after 
+{
+    border-radius: 50%;
+}
+
+@keyframes click-wave 
+{
+    0% 
+    {
+        height: 40px;
+        width: 40px;
+        opacity: 0.35;
+        position: relative;
+        border-radius: 50%;
+    }
+    100% 
+    {
+        height: 200px;
+        width: 200px;
+        margin-left: -80px;
+        margin-top: -80px;
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.header 
+{
+    padding-top: 140px;
+    padding-bottom: 40px;
+    height: 154;
+}
+
+.headerh1 
+{
+    height: 42;
+    color: #1d1d1d;
+    text-align: center;
+    line-height: 42px;
+    margin: 0px;
+}
+
+.myCard
+{
+    margin-top: -20px; 
+    margin-left: 1000px;
+}
+
+.cta 
+{
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: #1d1d1d;
+    cursor: pointer;
+}
+
+.cta:before 
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #9fcabe;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span 
+{
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #1d1d1d;
+}
+
+.cta svg 
+{
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #1d1d1d;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before 
+{
+    width: 100%;
+    background: #9fcabe;
+}
+
+.cta:hover svg 
+{
+    transform: translateX(0);
+}
+
+.cta:active 
+{
+    transform: scale(0.95);
+}

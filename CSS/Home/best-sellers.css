@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+.products-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 130px;
+}
+
+.products-container h2
+{
+    font-size: 36px;
+    color: #1d1d1d;
+    font-weight: 400;
+
+    align-self: flex-start;
+    margin-bottom: 24px;
+}
+
+.product 
+{
+    width: 257.33px;
+    cursor: pointer;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.image 
+{
+    display: inline-block;
+    width: 257.33px;
+    height: 342.88px;
+	padding: 30px;
+
+    vertical-align: middle;
+    border: 1px solid #d1e8e2;
+    border-radius: 10px;
+}
+
+.parent 
+{
+    width: fit-content;
+    position: relative;
+}
+
+.sale 
+{
+    display: inline-block;
+    height: 28px;
+    
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    background-color: #1d1d1d;
+    border-top-right-radius: 10px;
+}
+
+.NameAndPrice 
+{
+    width: 257.33px;
+    height: fit-content;
+    padding: 16px;
+
+    position: relative;
+    top: 0;
+
+    transition: top ease 0.2s;
+    margin-top: 10px;
+}
+
+.Name 
+{
+    width: 225.33px;
+    height: 22px;
+    margin: 0px 0px 10px;
+
+    font-size: 16px;
+    color: #1d1d1d;
+}
+
+.originalPrice 
+{
+    width: 87.55;
+    height: 24px;
+    margin: 0px 10px 0px 0px;
+    
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.salePrice 
+{
+    width: 87.55;
+    height: 24px;
+    
+    font-size: 16px;
+}
+
+.hidden 
+{
+    display: none;
+    opacity: 1;
+
+    margin-top: -30px;
+    margin-left: 15px;
+}
+
+.quickview
+{
+    color: #1d1d1d;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: .4px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    margin-left: 0px;
+}
+
+.quickview:hover
+{
+    color: #1d1d1d;
+}
+
+.product:hover .NameAndPrice 
+{
+    top: -30px;
+}
+
+.product:hover .hidden 
+{
+    transition: opacity 0.6s ease-in-out;
+    opacity: 1;
+
+    display: block;
+    cursor: pointer;
+
+    animation-name: opacityChange;
+    animation-duration: 1s;
+}
+
+.black 
+{
+    color: #1d1d1d;
+}
+
+.gray 
+{
+    color: #616161;
+}
+
+.NameAndPrice h4 
+{
+    display: inline-block;
+    width: 310px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.flex 
+{
+    display: flex;
+}
+
+@keyframes opacityChange 
+{
+    from 
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    } 
+}

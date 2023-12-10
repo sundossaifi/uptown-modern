@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cormorant+Garamond:wght@300;400;500&family=Josefin+Sans:wght@200&family=Montserrat:wght@100&family=Questrial&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+.header 
+{
+    padding-top: 140px;
+    padding-bottom: 40px;
+    height: 154;
+}
+
+.headerh1 
+{
+    height: 42;
+    color: #1d1d1d;
+    text-align: center;
+    line-height: 42px;
+    margin: 0px;
+}
+
+.table-container
+{
+    width: 1050px;
+    height: fit-content;
+    max-height: 400px;
+    overflow: auto;
+    margin: 130px 0px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.theader 
+{
+	background-color: #bae9dc;
+    width: 1050px;
+}
+
+tr,
+td
+{
+    width: 150px;
+    text-align: center;
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.cell-data
+{
+    background-color: #f9f7f6;
+}
+
+.form-container
+{
+    width: 1050px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.refund-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.short-refund-des
+{
+    width: 330px;
+    height: 40px;
+    border: 2px solid #f9f7f6;
+    padding-left: 5px;
+    color: #1d1d1d;
+}
+
+.refund-button
+{
+    width: 150px;
+    height: 40px;
+
+    background-color: #1d1d1d;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.id-label
+{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color: #1d1d1d;
+    margin-right: 5px;
+}
+
+.select-id
+{
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.select-id option
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: #1d1d1d;
+}

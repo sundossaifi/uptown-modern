@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+.video-background
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.footer-container,
+.footer-content-container,
+.footer-content-container > div,
+.email-form,
+.lower-footer-section
+{
+    display: flex;
+}
+
+.footer-container,
+.footer-content-container > div,
+.lower-footer-section
+{
+    flex-direction: column;
+}
+
+.footer-container
+{
+    position: relative;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.footer-content-container
+{
+    width: 100%;
+    justify-content: space-around;
+    padding: 50px 100px 10px 100px;
+}
+
+.footer-content-container > div
+{
+    height: 30vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-logo,
+.footer-title,
+.footer-categories a,
+.our-team a,
+.icons-container a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-logo img:hover,
+.footer-title:hover,
+.footer-categories a:hover,
+.our-team a:hover
+{
+    color: #1d1d1d;
+    text-decoration: underline;
+}
+
+.footer-title:hover
+{
+    text-decoration: none;
+}
+
+.footer-logo img
+{
+    width: 50px;
+}
+
+.footer-title,
+.footer-categories div,
+.our-team div,
+.Newsletter div
+{
+    color: #1d1d1d;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footer-title
+{
+    margin-left: 5px;
+}
+
+.address-contaner p,
+.footer-categories a,
+.our-team a,
+.icons-container a
+{
+    color: #1d1d1d;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.address-contaner p:first-child
+{
+    margin-top: 8px;
+    line-height: 1;
+}
+
+.email-field
+{
+    height: 30px;
+    width: 15vw;
+
+    padding: 16px 24px 16px 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+    border-style: none none solid;
+    border-width: 1px;
+    border-color: #1d1d1d #1d1d1d rgba(29,29,29,0.3);
+    border-radius: 0;
+}
+
+.email-field:focus
+{
+    outline: none;
+}
+
+.sumbit-button
+{
+    width: 5vw;
+    height: 33px;
+
+    border: none;
+    border-radius: 0;
+    background-color: #1d1d1d;
+
+    transform: perspective(0);
+    transition: padding 0.2s,background-color 0.2s;
+
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.icons-container
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-icon
+{
+    cursor: pointer;
+    display: inline;
+
+    margin-right: 15px;
+    opacity: 0.7;
+}
+
+.social-icon:hover
+{
+    opacity: 1;
+}
+
+.footer-container hr
+{
+    height: 1px;
+    background-color: rgba(29,29,29,0.3);
+}
+
+.footer-container
+{
+    padding: 20px 0px;
+}
+
+.lower-footer-section div
+{
+    margin-left: 50px;
+
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: rgba(29,29,29,0.7);
+}

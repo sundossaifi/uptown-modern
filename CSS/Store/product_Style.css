@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cormorant+Garamond:wght@300;400;500&family=Josefin+Sans:wght@200&family=Montserrat:wght@100&family=Questrial&display=swap');
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header 
+{
+    padding-top: 140px;
+    padding-bottom: 40px;
+    height: 154;
+}
+
+.headerh1 
+{
+    height: 42;
+    color: #1d1d1d;
+    text-align: center;
+    line-height: 42px;
+    margin: 0px;
+}
+
+.header2 
+{
+    height: 154;
+    width: 1349;
+}
+
+.bigDiv 
+{
+    width: 739.19px;
+    height: 815.03px;
+    display: flex;
+    padding: 0px 24px 0px 0px;
+    margin-left: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.salepro 
+{
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    color: #ffffff;
+    background-color: #1d1d1d;
+    position: absolute;
+    top: 0px;
+    right: 65px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Divbigimage 
+{
+    width: 643.67px;
+    height: 815.03px;
+}
+
+.Divsmallimage 
+{
+    width: 95.52px;
+    height: 815.03px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-right: 10px;
+    align-self: flex-start;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.Divsmallimage::-webkit-scrollbar 
+{ 
+    display: none;
+}
+
+.bigimage 
+{
+    width: 611.67px;
+    height: 815.03px;
+}
+
+.smallimage 
+{
+    width: 69.52px;
+    height: 92.61px;
+    cursor: pointer;
+}
+
+.mar 
+{
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.border 
+{
+    border: solid #f7f7f2;
+    border-width: 1px;
+}
+
+.border1 
+{
+    border: solid #1d1d1d;
+    border-width: 1px;
+}
+
+.RightText 
+{
+    width: 492.8px;
+    height: 466px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5%;
+}
+
+.toptext 
+{
+    width: 492.8px;
+    height: 22px;
+}
+
+.toptextleft 
+{
+    width: 25.39px;
+    height: 18px;
+    font-size: 12px;
+    margin: 0px 10px 0px 0px;
+    color: #8e8e8e;
+}
+
+.toptextright 
+{
+    width: 68.63px;
+    height: 13px;
+    font-size: 12px;
+    color: #1d1d1d;
+}
+
+.RightTexth1 
+{
+    width: 468.8px;
+    height: 42px;
+    font-size: 36px;
+    margin: 0px 0px 16px;
+    color: #1d1d1d;
+}
+
+.goright 
+{
+    margin-left: 12px;
+}
+
+.originalpricePro 
+{
+    width: fit-content;
+    height: 30px;
+    font-size: 24px;
+    margin-right: 10px;
+    color: #616161;
+    text-decoration: line-through;
+}
+
+.salepricePro 
+{
+    height: 30px;
+    font-size: 26px;
+    color: #1d1d1d;
+}
+
+.paragraph 
+{
+    width: 468.8px;
+    height: fit-content;
+    max-height: 120px;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+    color: #1d1d1d;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.paragraph::-webkit-scrollbar 
+{ 
+    display: none;
+}
+
+.cstock 
+{
+    width: 468.8px;
+    height: 42px;
+    margin: 10px 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.circleStock 
+{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0px 10px 0px 0px;
+    background-color: #67cca0;
+}
+
+.stock 
+{
+    width: 56.92px;
+    height: 22px;
+    margin-top: -18px;
+    padding: 10px 0px;
+    color: #67cca0;
+}
+
+.addToCart 
+{
+    width: 468.8px;
+    height: 46px;
+}
+
+.number 
+{
+    width: 64px;
+    height: 46px;
+    margin-right: 16px;
+    margin-bottom: 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border-color: rgba(29, 29, 29, .7);
+    border-radius: 0;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-style: solid;
+    border-width: 1px;
+    border-left: 1px solid;
+    border-color: rgba(29, 29, 29, .7);
+}
+
+.number:focus 
+{
+    border-color: #3898ec;
+    outline-style: none;
+}
+
+.addButton 
+{
+    display: block;
+    margin-top: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    margin-right: 16px;
+    padding: 12px 24px;
+    border-radius: 0;
+    background-color: #1d1d1d;
+    transition: padding .2s, background-color .2s;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: .4px;
+    text-decoration: none;
+    font-family: Questrial, sans-serif;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.checkWithText 
+{
+    width: 468.8px;
+    height: 92px;
+    margin: 32px 0px 0px;
+}
+
+.check 
+{
+    height: 24px;
+    margin: 0px 0px 10px;
+    margin-bottom: 10px;
+}
+
+.checkIcon 
+{
+    width: 18px;
+    height: 14px;
+    margin: 0px 10px 0px 0px;
+}
+
+.checkText 
+{
+    margin-right: 2px;
+    height: 24px;
+    font-size: 18px;
+    color: #1d1d1d;
+    margin-top: -4px;
+}
+
+.hrclass
+{
+    width:1232px;
+    border: 0; 
+    height: 1px; 
+    background: -webkit-linear-gradient(left, #bbb6b6, #6b6a6a, #bbb6b6);
+    background: -moz-linear-gradient(left, #bbb6b6, #6b6a6a, #bbb6b6);
+    background: -ms-linear-gradient(left, #bbb6b6, #6b6a6a, #bbb6b6);
+    background: -o-linear-gradient(left, #bbb6b6, #6b6a6a, #bbb6b6); 
+}
+
+.hr-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descrition 
+{
+    margin-left: 75px;
+    margin-top: 75px;
+    width: 1232px;
+    height: 318px;
+}
+
+.leftdes 
+{
+    width: 400px;
+    height: 318px;
+}
+
+.desa 
+{
+    width: 400px;
+    height: 62px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.desdiv 
+{
+    width: fit-content;
+    height: 30px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.desdiv:hover 
+{
+    color: #222222;
+}
+
+.rightdes 
+{
+    width: 800px;
+    height: 308px;
+}
+
+.outer 
+{
+    width: 1px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.inner 
+{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: rgb(235, 232, 232);
+    top: 10%;
+    box-shadow: 0px 0px 30px 20px rgb(235, 232, 232);
+}
+
+.desparagraph 
+{
+    height: fit-content;
+    max-height: 300px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.desparagraph::-webkit-scrollbar 
+{ 
+    display: none;
+}
+
+.black 
+{
+    color: #222222;
+}
+
+.gray 
+{
+    color: #949494;
+}
+
+.recommended 
+{
+    width: 1349px;
+    height: 763.83px;
+    padding: 120px 0px;
+    margin-left: 60px;
+}
+
+.divh2 
+{
+    width: 1232px;
+    height: 66px;
+}
+
+.divh2 h2 
+{
+    width: 249.42px;
+    height: 42px;
+    color: #1d1d1d;
+    font-size: 36px;
+    margin: 0px 0px 24px;
+    font-weight: 100;
+}
+
+.space 
+{
+    margin-right: 0px;
+}
+
+.row2 
+{
+    padding-left: 0px;
+}
+
+.col2 
+{
+    width: 100%;
+}
+
+.container1 
+{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: -20px;
+}
+
+.Shopnow 
+{
+    width: 1350px;
+    height: 342px;
+    background-color: #1d1d1d;
+    padding: 80px 0px;
+}
+
+.shoptext 
+{
+    max-width: 821.25px;
+    margin-right: auto;
+    margin-bottom: 16px;
+    margin-left: auto;
+    color: #fff;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.shopbutton 
+{
+    width: 1349px;
+    height: 70px;
+    padding: 24px 0px 0px;
+    cursor: pointer;
+}
+
+.shopa 
+{
+    width: 125.06px;
+    height: 46px;
+    color: #1d1d1d;
+    background-color: #fff;
+    padding: 12px 24px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 615px;
+    transition: color .2s, background-color .2s;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: .4px;
+}
+
+.shopa:hover 
+{
+    color: #fff;
+    background-color: #1d1d1d;
+}
+
+.flexpro 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.adv-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.des-container,
+.reco-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desparagraph span
+{
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+}

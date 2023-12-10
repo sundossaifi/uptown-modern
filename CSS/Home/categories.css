@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+.categories-container,
+.left-category-img-container,
+.right-category-img-container,
+.category
+{
+    display: flex;
+}
+
+.categories-container,
+.category
+{
+    justify-content: center;
+}
+
+.categories-container
+{
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 130px;
+    overflow: hidden;
+}
+
+.left-categories
+{
+    align-self: flex-start;
+}
+
+.categories-container h2,
+.right-categories
+{
+    align-self: flex-end;
+}
+
+.right-category-img-container
+{
+    flex-direction: row-reverse;
+}
+
+.category
+{
+    flex-direction: column;
+}
+
+.categories-container h2
+{
+    font-size: 36px;
+    color: #1d1d1d;
+    font-weight: 400;
+
+    margin-bottom: 24px;
+}
+
+.category
+{
+    position: relative;
+    top: 130px;
+
+    width: 410px;
+    height: 256px;
+    padding-left: 35px;
+
+    background-color: #f9f7f6;
+}
+
+.left-category-img-container,
+.right-category-img-container
+{
+    width: fit-content;
+    height: 720px;
+}
+
+.category h3
+{
+    color: #1d1d1d;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.category .discover-button
+{
+    margin-top: 10px;
+    animation-name: none;
+    transform: initial;
+}
+
+.left-categories .category
+{
+    right: 205px;
+}
+
+.right-categories
+{
+    margin: 90px 0px;
+}
+
+.right-categories .category
+{
+    left: 205px;
+}
+
+.view-button
+{
+    width: fit-content;
+}
+
+.view-button a
+{
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.view-button-line
+{
+    width: 30%;
+    height: 1px;
+
+    background-color: #1d1d1d;
+}
+
+.view-button:hover .view-button-line
+{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.view-button:not(:hover) .view-button-line
+{
+    width: 30%;
+    transition: 0.5s;
+}
+
+.view-button a hr
+{
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.each-category-container
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.category-text
+{
+    width: 100%;
+    height: 720px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 38px;
+	color: #1d1d1d;
+    font-weight: bold;
+    opacity: 0;
+}
+
+#firstLeftText,
+#secondLeftText
+{
+    transform: translateX(-15px);
+}
+
+#firstRightText,
+#secondRightText
+{
+    transform: translateX(15px);
+}

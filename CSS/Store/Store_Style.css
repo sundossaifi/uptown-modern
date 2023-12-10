@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cormorant+Garamond:wght@300;400;500&family=Josefin+Sans:wght@200&family=Montserrat:wght@100&family=Questrial&display=swap');
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Questrial', sans-serif;
+    color: #1d1d1d;
+}
+
+.main-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin: 30px 50px;
+    padding: 30px 100px;
+}
+
+.header 
+{
+    padding-top: 140px;
+    padding-bottom: 40px;
+    height: 154;
+}
+
+.headerh1 
+{
+    height: 42;
+    color: #1d1d1d;
+    text-align: center;
+    line-height: 42px;
+    margin: 0px;
+}
+
+.HomeStoreParent 
+{
+    width: 100%;
+    height: 52;
+    background-color: #f7f7f7;
+    margin: 0px 0px 56px;
+    padding: 16px 56px;
+}
+
+.HomeStore 
+{
+    height: 20;
+    width: 1237;
+    padding: 0px 24px;
+    display: flex;
+}
+
+.Home 
+{
+    height: 14;
+    width: 38.81;
+    color: #8E8E8E;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dash 
+{
+    height: 14;
+    width: 13.5;
+    color: #1d1d1d;
+    padding: 0px 4px;
+}
+
+.Store 
+{
+    height: 14;
+    color: #1d1d1d;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Home:hover 
+{
+    color: #8E8E8E;
+}
+
+.Store:hover
+{
+    color: #1d1d1d;
+}
+
+.imgsWithLeft 
+{
+    height: 1340.25px;
+    grid-column-gap: 30px;
+    -ms-grid-columns: 25% 1fr;
+    grid-template-columns: 25% 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.imgsDiv 
+{
+    height: 1340.25;
+    width: 868;
+}
+
+.Left 
+{
+    width: 308px;
+    margin-left: -20px;
+}
+
+.aStyle 
+{
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #8e8e8e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.aStyle:hover 
+{
+    color: #1d1d1d;
+}
+
+.product 
+{
+    width: 257.33px;
+    height: 470.28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.image 
+{
+    display: inline-block;
+    width: 257.33px;
+    height: 342.88px;
+	padding: 30px;
+
+    vertical-align: middle;
+    border: 1px solid #d1e8e2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.parent 
+{
+    width: fit-content;
+    position: relative;
+}
+
+.sale 
+{
+    display: inline-block;
+    height: 28px;
+    
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    background-color: #1d1d1d;
+    border-top-right-radius: 10px;
+}
+
+.NameAndPrice 
+{
+    height: fit-content;
+    width: 257.33px;
+    padding: 16px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.2s;
+    margin-top: 10px;
+}
+
+.Name 
+{
+    height: 22px;
+    width: 225.33px;
+    margin: 0px 0px 10px;
+    color: #1d1d1d;
+}
+
+.originalPrice 
+{
+    height: 24px;
+    width: 87.55;
+    margin: 0px 10px 0px 0px;
+    text-decoration: line-through;
+}
+
+.salePrice 
+{
+    height: 24px;
+    width: 87.55;
+}
+
+.hidden 
+{
+    display: none;
+    margin-top: -30px;
+    margin-left: 15px;
+    opacity: 1;
+}
+
+.quickview
+{
+    color: #1d1d1d;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: .4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.quickview:hover
+{
+    color: #1d1d1d;
+}
+
+.product:hover .NameAndPrice 
+{
+    top: -30px;
+}
+
+.product:hover .hidden 
+{
+    transition: opacity 0.6s ease-in-out;
+    opacity: 1;
+    display: block;
+    cursor: pointer;
+    animation-name: opacityChange;
+    animation-duration: 1s;
+}
+
+@keyframes opacityChange 
+{
+    from
+    {
+        opacity: 0;
+    }
+    to 
+    {
+        opacity: 1;
+    }
+}
+
+.black 
+{
+    color: #1d1d1d;
+}
+
+.gray 
+{
+    color: #616161;
+}
+
+h4 
+{
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    width: 310px;
+    display: inline-block;
+}
+
+.flex 
+{
+    display: flex;
+}
+
+.color 
+{
+    margin-top: 25px;
+}
+
+.colorUl 
+{
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.colorLi 
+{
+    padding: 5px;
+    margin-bottom: 0;
+    margin-top: 16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: 0 0 0 1px transparent;
+    cursor: pointer;
+}
+
+.colorLi:hover 
+{
+    box-shadow: 0 0 0 1px rgb(211, 164, 93);
+}
+
+.slider 
+{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover 
+{
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb 
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #cce9e1;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb 
+{
+    width: 25px;
+    height: 25px;
+    background: rgb(211, 164, 93);
+    cursor: pointer;
+}
+
+.price 
+{
+    margin-top: 50px;
+}
+
+.brand 
+{
+    margin-top: 50px;
+}
+
+.buttons
+{
+    margin-top: 20px;
+}
+
+.row1 
+{
+    position: relative;
+    margin-left: 42px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.cont 
+{
+    width: 80px;
+    height: 40px;
+    position: relative;
+    margin-right: 10px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center 
+{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+}
+
+.btn 
+{
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.btn svg 
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #1d1d1d;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover 
+{
+    transition: 1s ease-in-out;
+    background: #d1e8e2;
+}
+
+.btn:hover svg
+{
+    stroke-dashoffset: -480;
+}
+
+.btn span 
+{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 200;
+    display: inline-block;
+}
+
+.slidecontainer label
+{
+    color: #1d1d1d;
+    font-size: 20px;
+    font-weight: 400;
+}

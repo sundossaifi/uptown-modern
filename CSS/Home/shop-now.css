@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+.shop-now-container,
+.shop-now-button a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-now-container
+{
+    height: 300px;
+    flex-direction: column;
+    
+    background-color: #1d1d1d;
+}
+
+.shop-now-message
+{
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.shop-now-button
+{
+    width: 125px;
+    height: 45px;
+}
+
+.shop-now-button a
+{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+
+    font-size: 16px;
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.shop-now-button a:hover
+{
+    background-color: #1d1d1d;
+    color: #ffffff;
+    transition: color 0.2s,background-color 0.2s;
+}
+
+.shop-now-button a:active
+{
+    background-color: #2f2e2e;
+    transition: background-color 0.2s;
+}

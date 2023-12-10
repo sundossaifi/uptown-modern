@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+#progress 
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+
+    margin: 0px;
+    padding: 0px;
+
+    background-color: black;
+
+    width: 0%;
+    height: 5px;
+    z-index: 6;
+}
+
+.header 
+{
+    padding-top: 140px;
+    padding-bottom: 40px;
+    height: 154;
+}
+
+.headerh1 
+{
+    height: 42;
+    color: #1d1d1d;
+    text-align: center;
+    line-height: 42px;
+    margin: 0px;
+}
+
+
+.article-image-Container
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1280px;
+    height: 680px;
+}
+
+.article-image
+{
+    position: absolute;
+    width: 1280px;
+    height: 680px;
+    z-index: -1;
+}
+
+.article-title
+{
+    position: absolute;
+    bottom: 0;
+    width: 960px;
+    height: 154px;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.question 
+{
+    width: fit-content;
+    size: 36px;
+    color: #1d1d1d;
+    text-align: center;
+    font-weight: 400;
+}
+
+.author-name 
+{
+    color: #8e8e8e;
+    size: 16px;
+    text-align: center;
+}
+
+.author-name span 
+{
+    color: #1d1d1d;
+    size: 16px;
+}
+
+.article-container 
+{
+    width: 960px;
+    height: fit-content;
+    margin: 40px 277.6px;
+    padding: 0px 40px;
+}
+
+.paragrapghs 
+{
+    width: 880px;
+    height: fit-content;
+}
+
+.authorposts-container 
+{
+    width: 880px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para1 
+{
+    width: 880px;
+    height: fit-content;
+    color: #1d1d1d;
+    size: 14px;
+    margin: 0px 0px 10px;
+    text-align: left;
+}
+
+.authorpost 
+{
+    width: 440px;
+    height: 180px;
+    background-color: #f9f7f6;
+    padding: 24px;
+    display: flex;
+}
+
+.author-img 
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px 24px 0px 0px;
+}
+
+.author-identification 
+{
+    width: 288px;
+    height: 110px;
+    margin: 4px 0px 0px;
+}
+
+.authName 
+{
+    color: #1d1d1d;
+    font-size: 18px;
+    margin: 0px 0px 10px;
+    line-height: 24px;
+}
+
+.favorite
+{
+    color: #1d1d1d;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+    line-height: 22px;
+}
+
+.allposts 
+{
+    color: #1d1d1d;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+.allposts:hover
+{
+    color: #1d1d1d;
+}
+
+.paragrapghs hr 
+{
+    color: #616161;
+}
+
+.author-name a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: #8e8e8e;
+    text-align: left;
+}
+
+.BlogArticleParent 
+{
+    height: 52;
+    width: 1349;
+    background-color: #f7f7f7;
+    margin: 0px 0px 56px;
+    padding: 16px 56px;
+}
+
+.BlogArticle 
+{
+    height: 20;
+    width: 1237;
+    padding: 0px 24px;
+    display: flex;
+}
+
+.Home 
+{
+    font-size: 16px;
+    height: 14;
+    width: 38.81;
+    color: #8E8E8E;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Home:hover
+{
+    color: #8E8E8E;
+}
+
+.Blog 
+{
+    font-size: 16px;
+    height: 14;
+    width: 38.81;
+    color: #1d1d1d;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dash 
+{
+    height: 14;
+    width: 13.5;
+    font-size: 16px;
+    color: #1d1d1d;
+    padding: 0px 4px;
+}
+
+.Article 
+{
+    font-size: 16px;
+    height: 14;
+    color: #1d1d1d;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Blog:hover,
+.Article:hover
+{
+    color: #1d1d1d;
+}

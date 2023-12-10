@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+.pop-up-message
+{
+    width: fit-content;
+    height: 40px;
+    padding: 5px;
+
+    color: #1d1d1d;
+    font-size: 15px;
+
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #f7f7f7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 1%;
+    left: 50%;
+
+    z-index: 1;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    animation-name: message-animation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+.main-page
+{
+    top: 3%;
+}
+
+@keyframes message-animation
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
